@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" onclick="jump()">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +10,16 @@
     <div id="game">
         <div id="character"></div>
         <div id="block"></div>
+    </div>
+    <br>
+    <div id="details">
+        <!-- Score -->
+        <section><h2>Score:</h2><h3 id="score"></h3>
+        </section>
+        <!-- Reset -->
+        <button onclick="">Reset</button>
+        <!-- Stop -->
+        <a href="./index.html">Stop</a>
     </div>
     <!-- JS Script -->
     <script src="./script/script.js"></script>
